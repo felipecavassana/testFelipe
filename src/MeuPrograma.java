@@ -4,10 +4,10 @@ public class MeuPrograma {
 		
 		String user_profile = "00eF00000014579";
 		
-		//Cliente c1 = new Cliente();
-		//c1.setNome("Felipe");
+		Cliente c1 = new Cliente();
+		c1.setNome("Felipe");
 				
-		//System.out.println(Conta.getTotalDeContas());
+		System.out.println(Conta.getTotalDeContas());
 
 		
 		if(user_profile != "00eF00000014579" || user_profile != "00eF0000000SZDj" || user_profile != "00eF0000000Req5" || user_profile != "00eF0000000ReWz"){
